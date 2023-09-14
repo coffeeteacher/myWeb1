@@ -1,0 +1,51 @@
+/* 總外框 */
+#wrap {
+    /* 內容水平置中 */
+    text-align: center;
+    /* 上方留白 */
+    margin-top: 50px;
+}
+
+/* 共同設定 */
+header,
+nav,
+section,
+footer {
+    /* border: 1px dashed #999; */
+    /* 下方留白加大 */
+    margin-bottom: 20px;
+    /* 內容與上下邊線的間距加大 */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* 頁首區 */
+header a {
+    text-decoration: none;
+    color: red;
+}
+
+/* 選單區 */
+nav{
+    background-color: red;    
+}
+nav a {
+    color: #fff;
+    font-weight: bold;  /* 粗體字 */
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    border-right: 1px solid red;
+    padding-right: 20px;
+}
+
+/* 內容區 */
+section {
+    margin-top: 50px;
+}
+
+section iframe,
+section img{
+    width: 960px;
+    height: 600px;
+}
